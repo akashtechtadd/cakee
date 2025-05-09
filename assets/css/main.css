@@ -10651,3 +10651,7 @@ input:focus-visible {
     background: #0085d8;
     color: #fff;
   }
+
+  .del-date-time{
+    font-size: 12px;
+  }
