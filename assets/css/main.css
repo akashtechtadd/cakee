@@ -10612,6 +10612,7 @@ input:focus-visible {
   .vibrate {
     display: inline-block;
     animation: vibrate 0.5s infinite;
+    font-size: 20px;
   }
   
   .qty-selector{
@@ -10654,4 +10655,30 @@ input:focus-visible {
 
   .del-date-time{
     font-size: 12px;
+  }
+
+  .feature-card{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+
+  .feature-card:hover{
+    transform: scale(1.05);
+  }
+  .feature-card p{
+    margin-bottom: 0px !important;
+  }
+  .call-now-btn{
+    color: #fff;
+    font-weight: 600;
+    background: rgb(0, 197, 0);
+    padding: 12px 50px;
+    margin-top: 20px;
+    border-radius: 50px;
+  }
+  .call-now-btn:hover{
+    background: green;
+    color: #fff;
   }
